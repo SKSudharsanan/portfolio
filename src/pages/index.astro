@@ -1,0 +1,30 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header title={SITE_TITLE} />
+		<main>
+			<img src="/sudharsanan.png">
+			<h1>🧑‍🚀 Hello My Dear Friend!</h1>
+<p>Welcome to my digital haven on the internet! This website is not just a virtual space; it's my digital home, where I'll be sharing the exciting journey of my tech projects and the captivating discoveries I make in both the real world and the digital realm.</p>
+
+<p>So, what can you expect to find here? First and foremost, I'll be delving into the intricate worlds of blockchain and artificial intelligence through a series of technical blogs. Whether you're a fellow enthusiast, a budding developer, or simply curious about these cutting-edge technologies, you'll find valuable insights and knowledge-sharing right here.</p>
+
+<p>Beyond the realms of technology, I'll also take you along on my adventures as I explore new places and cultures. Travel is not just a hobby; it's an integral part of my life, and I'll be sharing my experiences, tips, and recommendations with you.</p>
+
+<p>But that's not all – I'm also an avid participant in various competitions and hackathons. I'll be documenting my journey through these challenges, sharing the highs, the lows, and the lessons learned along the way.</p>
+
+<p>In a nutshell, this website is a reflection of my passion for technology, my love for travel, and my zest for competition. So, make yourself comfortable, explore, and join me in this digital voyage through the exciting worlds of tech, travel, and competition!</p>
+		</main>
+		<Footer />
+	</body>
+</html>
